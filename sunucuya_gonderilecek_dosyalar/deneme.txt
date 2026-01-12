@@ -1,0 +1,5 @@
+FTP Baglanti Test Dosyasi
+Tarih: 2026-01-12
+Bu dosya GitHub Actions ile otomatik yuklenmistir.
+Eger bu dosyayi goruyorsaniz, deployment dogru dizine yapilmis demektir.
+Root dizini testi.
