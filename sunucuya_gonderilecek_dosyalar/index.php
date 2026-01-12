@@ -128,8 +128,28 @@
 
     <div id="canvas-container"></div>
 
+    <!-- Mobile App Banner -->
+    <div
+        class="relative w-full z-[70] bg-brand-dark/95 backdrop-blur-md border-b border-white/10 p-4 md:hidden">
+        <div class="flex items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <div class="bg-white p-2 rounded-xl">
+                    <img src="favicon.png" alt="Emlakİmza Logo" class="w-8 h-8">
+                </div>
+                <div>
+                    <h3 class="font-bold text-white text-sm">Emlakİmza</h3>
+                    <p class="text-xs text-brand-secondary">Mobil Uygulama</p>
+                </div>
+            </div>
+            <a href="indir.php"
+                class="bg-brand-secondary text-brand-dark font-bold px-4 py-2 rounded-lg text-sm whitespace-nowrap shadow-lg shadow-brand-secondary/20">
+                Yükle
+            </a>
+        </div>
+    </div>
+
     <nav
-        class="fixed w-full z-50 transition-all duration-300 bg-brand-dark/80 backdrop-blur-md border-b border-white/5 top-20 md:top-0">
+        class="sticky md:fixed top-0 w-full z-50 transition-all duration-300 bg-brand-dark/80 backdrop-blur-md border-b border-white/5">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
                 <div class="flex-shrink-0 flex items-center gap-2">
@@ -660,25 +680,7 @@
         </div>
     </footer>
 
-    <!-- Mobile App Banner -->
-    <div
-        class="fixed top-0 left-0 w-full z-[70] bg-brand-dark/95 backdrop-blur-md border-b border-white/10 p-4 md:hidden">
-        <div class="flex items-center justify-between gap-4">
-            <div class="flex items-center gap-3">
-                <div class="bg-white p-2 rounded-xl">
-                    <img src="favicon.png" alt="Emlakİmza Logo" class="w-8 h-8">
-                </div>
-                <div>
-                    <h3 class="font-bold text-white text-sm">Emlakİmza</h3>
-                    <p class="text-xs text-brand-secondary">Mobil Uygulama</p>
-                </div>
-            </div>
-            <a href="indir.php"
-                class="bg-brand-secondary text-brand-dark font-bold px-4 py-2 rounded-lg text-sm whitespace-nowrap shadow-lg shadow-brand-secondary/20">
-                Yükle
-            </a>
-        </div>
-    </div>
+
 
     <script>
         function toggleMobileMenu() {
