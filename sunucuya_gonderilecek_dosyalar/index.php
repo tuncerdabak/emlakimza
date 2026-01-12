@@ -129,8 +129,7 @@
     <div id="canvas-container"></div>
 
     <!-- Mobile App Banner -->
-    <div
-        class="relative w-full z-[70] bg-brand-dark/95 backdrop-blur-md border-b border-white/10 p-4 md:hidden">
+    <div class="relative w-full z-[70] bg-brand-dark/95 backdrop-blur-md border-b border-white/10 p-4 md:hidden">
         <div class="flex items-center justify-between gap-4">
             <div class="flex items-center gap-3">
                 <div class="bg-white p-2 rounded-xl">
@@ -691,6 +690,18 @@
                 menu.classList.add('hidden');
             }
         }
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function (event) {
+            const menu = document.getElementById('mobile-menu');
+            const menuButton = document.querySelector('button[onclick="toggleMobileMenu()"]');
+
+            if (!menu.classList.contains('hidden') &&
+                !menu.contains(event.target) &&
+                !menuButton.contains(event.target)) {
+                menu.classList.add('hidden');
+            }
+        });
 
         const isMobile = window.innerWidth < 768;
 
