@@ -174,7 +174,7 @@
         </div>
 
         <!-- Mobile Menu, show/hide based on menu state. -->
-        <div class="md:hidden hidden bg-brand-dark/95 backdrop-blur-xl border-b border-white/10 absolute w-full"
+        <div class="md:hidden hidden bg-brand-dark/95 backdrop-blur-xl border-b border-white/10 absolute w-full top-20 left-0"
             id="mobile-menu">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a href="#nasil-calisir"
@@ -661,7 +661,8 @@
     </footer>
 
     <!-- Mobile App Banner -->
-    <div class="fixed bottom-0 left-0 w-full z-[60] bg-brand-dark/95 backdrop-blur-md border-t border-white/10 p-4 md:hidden">
+    <div
+        class="fixed bottom-0 left-0 w-full z-[60] bg-brand-dark/95 backdrop-blur-md border-t border-white/10 p-4 md:hidden">
         <div class="flex items-center justify-between gap-4">
             <div class="flex items-center gap-3">
                 <div class="bg-white p-2 rounded-xl">
@@ -672,7 +673,8 @@
                     <p class="text-xs text-brand-secondary">Mobil Uygulama</p>
                 </div>
             </div>
-            <a href="indir.php" class="bg-brand-secondary text-brand-dark font-bold px-4 py-2 rounded-lg text-sm whitespace-nowrap shadow-lg shadow-brand-secondary/20">
+            <a href="indir.php"
+                class="bg-brand-secondary text-brand-dark font-bold px-4 py-2 rounded-lg text-sm whitespace-nowrap shadow-lg shadow-brand-secondary/20">
                 Yükle
             </a>
         </div>
@@ -806,4 +808,5 @@
         });
     </script>
 </body>
+
 </html>
