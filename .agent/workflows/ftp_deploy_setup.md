@@ -38,7 +38,7 @@ Bu iş akışı, herhangi bir projeye GitHub Actions kullanarak otomatik FTP da�
              username: ${{ secrets.FTP_USERNAME }}
              password: ${{ secrets.FTP_PASSWORD }}
              local-dir: ./ # Sunucuya gönderilecek yerel klasör (Örn: ./ veya ./public/)
-             server-dir: / # Sunucudaki hedef klasör (Örn: /public_html/)
+             server-dir: / # Sunucudaki hedef klasör (Eğer FTP kök dizine bağlanıyorsa / yapın, public_html ise /public_html/ yapın)
              exclude: |
                **/.git*
                **/.git*/**
