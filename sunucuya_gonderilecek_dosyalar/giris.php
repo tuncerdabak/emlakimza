@@ -271,6 +271,11 @@ if (isLoggedIn()) {
             <a href="https://emlakimza.com">
                 <img src="emlakimza.png" alt="emlakimza.com" style="max-height: 120px;" class="mb-3">
             </a>
+            <div class="mt-2">
+                <a href="index.php" class="btn btn-outline-primary btn-sm rounded-pill px-4">
+                    <i class="bi bi-arrow-left me-2"></i>Ana Sayfaya Dön
+                </a>
+            </div>
         </div>
 
         <h1>emlakimza.com</h1>
