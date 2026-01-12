@@ -661,8 +661,8 @@
     </footer>
 
     <!-- Mobile App Banner -->
-    <div
-        class="fixed bottom-0 left-0 w-full z-[60] bg-brand-dark/95 backdrop-blur-md border-t border-white/10 p-4 md:hidden">
+    <div style="padding-bottom: env(safe-area-inset-bottom);"
+        class="fixed bottom-0 left-0 w-full z-[60] bg-brand-dark/95 backdrop-blur-md border-t border-white/10 p-4 mb-4 md:hidden">
         <div class="flex items-center justify-between gap-4">
             <div class="flex items-center gap-3">
                 <div class="bg-white p-2 rounded-xl">
