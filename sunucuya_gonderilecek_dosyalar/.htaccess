@@ -1,0 +1,38 @@
+# emlakimza.com - Server Configuration
+# Strengthening the foundation with Clean URLs and Security
+
+Options -Indexes
+RewriteEngine On
+
+# Sitemap rewrite
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+
+
+# Redirect to HTTPS (if needed and supported by hosting)
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Remove .php extension from URL
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Custom Error Pages
+ErrorDocument 404 /404.php
+
+# Deny access to sensitive folders
+<Directory "config">
+    Order Deny,Allow
+    Deny from all
+</Directory>
+
+<Directory "logs">
+    Order Deny,Allow
+    Deny from all
+</Directory>
+
+# Protect config files
+<Files "*.log">
+    Order Deny,Allow
+    Deny from all
+</Files>

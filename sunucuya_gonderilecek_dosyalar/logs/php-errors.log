@@ -1,0 +1,16 @@
+[12-Dec-2025 18:49:50 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Class "PlanManager" not found in /home/tuncerda/public_html/emlak_imza/firma/dashboard.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tuncerda/public_html/emlak_imza/firma/dashboard.php on line 15
+[12-Dec-2025 18:50:34 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Class "PlanManager" not found in /home/tuncerda/public_html/emlak_imza/firma/dashboard.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tuncerda/public_html/emlak_imza/firma/dashboard.php on line 15
+[12-Dec-2025 18:53:26 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Class "PlanManager" not found in /home/tuncerda/public_html/emlak_imza/firma/dashboard.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tuncerda/public_html/emlak_imza/firma/dashboard.php on line 15
+[12-Dec-2025 18:53:30 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Class "PlanManager" not found in /home/tuncerda/public_html/emlak_imza/firma/dashboard.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/tuncerda/public_html/emlak_imza/firma/dashboard.php on line 15

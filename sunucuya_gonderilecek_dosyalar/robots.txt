@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /firma/
+Disallow: /danisman/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /logs/
+Disallow: /musteri/imza*
+
+Sitemap: https://emlakimza.com/sitemap.xml
